@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biografia – Leonardo da Vinci</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background: #f3f3f3;
+      color: #333;
+    }
+
+    /* HEADER BONITO */
+    header {
+      background: url('https://upload.wikimedia.org/wikipedia/commons/6/6f/Leonardo_self.jpg') center/cover no-repeat;
+      height: 350px;
+      position: relative;
+      display: flex;
+      align-items: flex-end;
+      padding: 40px;
+      color: white;
+    }
+
+    header::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0.1));
+    }
+
+    header h1 {
+      position: relative;
+      font-size: 3em;
+      z-index: 2;
+    }
+
+    /* CONTAINER PRINCIPAL */
+    .container {
+      max-width: 900px;
+      margin: -50px auto 50px auto;
+      background: white;
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    }
+
+    h2 {
+      font-size: 1.8em;
+      margin: 30px 0 15px;
+      color: #111;
+      border-left: 5px solid #8a2be2;
+      padding-left: 10px;
+    }
+
+    p {
+      font-size: 1.15em;
+      line-height: 1.7em;
+      margin-bottom: 20px;
+    }
+
+    .foto {
+      width: 100%;
+      border-radius: 12px;
+      margin: 20px 0;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #111;
+      color: #bbb;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER BONITO COM IMAGEM DE FUNDO -->
+  <header>
+    <h1>Leonardo da Vinci</h1>
+  </header>
+
+  <div class="container">
+
+    <h2>🌟 Quem foi?</h2>
+    <img class="foto" src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Leonardo_da_Vinci_-_presumed_self-portrait_-_WGA12798.jpg" alt="Leonardo da Vinci">
+    <p>
+      Leonardo da Vinci (1452–1519) foi um dos maiores gênios da história. Artista, inventor e cientista,
+      deixou um legado que influenciou profundamente a arte e o conhecimento humano.
+    </p>
+
+    <h2>🎨 Obras Famosas</h2>
+    <img class="foto" src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Mona_Lisa.jpg" alt="Mona Lisa">
+    <p>
+      Entre suas obras mais conhecidas estão a <strong>Mona Lisa</strong> e <strong>A Última Ceia</strong>.
+      Seu estilo marcou a transição para o Alto Renascimento.
+    </p>
+
+    <h2>🧠 Inventor Visionário</h2>
+    <img class="foto" src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Da_Vinci_Vitruve_Luc_Viatour.jpg" alt="Homem Vitruviano">
+    <p>
+      Leonardo estudou anatomia, engenharia, física, matemática e desenvolveu esboços de máquinas voadoras,
+      tanques, engrenagens e diversas invenções muito avançadas para sua época.
+    </p>
+
+    <h2>📚 Últimos Anos</h2>
+    <img class="foto" src="https://upload.wikimedia.org/wikipedia/commons/2/28/Clos_Luc%C3%A9_02.JPG" alt="Casa de Leonardo da Vinci">
+    <p>
+      Leonardo passou seus últimos anos na França, convidado pelo rei Francisco I. Morreu em 1519, deixando
+      um impacto eterno na arte e na ciência.
+    </p>
+
+  </div>
+
+  <footer>
+    © 2025 • Site criado por ChatGPT
+  </footer>
+
+</body>
+</html>
+
